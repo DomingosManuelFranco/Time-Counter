@@ -7,6 +7,7 @@ body{
     margin: 0;
     display: grid;
     place-items: center;
+    background: rgba(246, 237, 253, 0.89);
     min-height: 100vh;
 }
 
@@ -15,11 +16,39 @@ body{
     width: 30rem;
     height: 20rem;
     text-align: center;
-    background: aquamarine;
-    border: 1px solid #5deeb8;
-    box-shadow: 5px 10px #caf9de;
+    background: rgb(127, 255, 212);
+    border: 1px solid #26f5c8;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #counter {
+    font-weight: 700;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #002b50;
+}
+
+.contador h1 {
+    color: rgb(212, 9, 248);
+}
+
+.btn button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#startBtn {
+
+}
+
+#resetBtn {
+
+}
+
+#stopBtn {
     
 }
